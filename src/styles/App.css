@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto:wght@100;300;400;500;700;900&family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -12,16 +13,12 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: dimgrey;
 }
 
 button {
   cursor: pointer;
 }
-
-button i {
-  cursor: pointer;
-}
-
 
 .container {
   width: 90%;
@@ -61,12 +58,13 @@ button i {
 #new:hover {
   color: white;
   background-color: blueviolet;
+  
 }
 
 .divTable {
   padding: 1px 4%;
   width: auto; 
-  height: inherit;
+  height: inherit; 
   overflow: auto;
 }
 
@@ -74,6 +72,7 @@ button i {
   width: 12px;
   background-color: whitesmoke; 
 }
+
 .divTable::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: darkgray; 
