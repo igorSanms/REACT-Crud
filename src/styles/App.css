@@ -24,8 +24,8 @@ button i {
 
 
 .container {
-  width: 1400px;
-  height: 600px;
+  width: 90%;
+  height: 80%;
   border-radius: 10px;
   background: white;
   box-shadow: 10px 10px 15px rgba(0,0,0,0.4);
